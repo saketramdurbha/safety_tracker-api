@@ -15,3 +15,10 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore actual database and secrets config files.
+/config/database.yml
+/config/secrets.yml
+
+# Ignore Idea IDE config files.
+/.idea
